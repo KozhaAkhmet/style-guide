@@ -1,0 +1,42 @@
+/* Generated from tokens.json by scripts/build.mjs. Do not edit by hand. */
+:root,
+::backdrop {
+  --brand-primary: #1e5f8a;
+  --brand-secondary: #d4a017;
+  --brand-neutral: #b8bdc4;
+  --brand-outline: #c45c26;
+
+  --color-primary-100: oklch(from var(--brand-primary) 90% c h);
+  --color-primary-200: oklch(from var(--brand-primary) 80% c h);
+  --color-primary-300: oklch(from var(--brand-primary) 70% c h);
+  --color-primary-400: oklch(from var(--brand-primary) 60% c h);
+  --color-primary-500: oklch(from var(--brand-primary) 50% c h);
+  --color-primary-800: oklch(from var(--brand-primary) 30% c h);
+
+  --color-secondary-100: oklch(from var(--brand-secondary) 90% c h);
+  --color-secondary-200: oklch(from var(--brand-secondary) 80% c h);
+  --color-secondary-300: oklch(from var(--brand-secondary) 70% c h);
+  --color-secondary-400: oklch(from var(--brand-secondary) 60% c h);
+  --color-secondary-500: oklch(from var(--brand-secondary) 50% c h);
+  --color-secondary-800: oklch(from var(--brand-secondary) 30% c h);
+
+  --color-outline-50: oklch(from var(--brand-outline) 90% c h);
+  --color-outline-100: oklch(from var(--brand-outline) 80% c h);
+  --color-outline-200: oklch(from var(--brand-outline) 50% c h);
+  --color-outline-300: oklch(from var(--brand-outline) 70% c h);
+  --color-outline-800: oklch(from var(--brand-outline) 30% c h);
+
+  --color-neutral-100: oklch(from var(--brand-neutral) 100% 0 0);
+  --color-neutral-200: oklch(from var(--brand-neutral) 95% c h);
+  --color-neutral-300: oklch(from var(--brand-neutral) 90% c h);
+  --color-neutral-400: oklch(from var(--brand-neutral) 85% c h);
+  --color-neutral-500: oklch(from var(--brand-neutral) 80% c h);
+  --color-neutral-600: oklch(from var(--brand-neutral) 60% c h);
+  --color-neutral-700: oklch(from var(--brand-neutral) 40% c h);
+  --color-neutral-800: oklch(from var(--brand-neutral) 30% c h);
+  --color-neutral-850: oklch(from var(--brand-neutral) 20% c h);
+  --color-neutral-900: oklch(from var(--brand-neutral) 15% c h);
+
+  --font-family-default: 'Atkinson Hyperlegible Next', sans-serif;
+  --font-family-special: 'Atkinson Hyperlegible Next', sans-serif;
+}

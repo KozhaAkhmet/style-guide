@@ -1,0 +1,63 @@
+/* Maps the shared tokens onto Starlight's variables.
+   Load after tokens.css and fonts.css in Starlight's `customCss`.
+   Dark accent = secondary, light accent = primary. */
+:root,
+::backdrop {
+  --sl-font: var(--font-family-default);
+
+  /* Dark theme */
+  --sl-color-white: var(--color-neutral-100);
+  --sl-color-gray-1: var(--color-neutral-300);
+  --sl-color-gray-2: var(--color-neutral-500);
+  --sl-color-gray-3: var(--color-neutral-600);
+  --sl-color-gray-4: var(--color-neutral-700);
+  --sl-color-gray-5: var(--color-neutral-800);
+  --sl-color-gray-6: var(--color-neutral-850);
+  --sl-color-black: var(--color-neutral-900);
+
+  --sl-color-accent-low: var(--color-secondary-800);
+  --sl-color-accent: var(--color-secondary-300);
+  --sl-color-accent-high: var(--color-secondary-100);
+
+  --sl-color-blue-low: var(--color-primary-800);
+  --sl-color-blue: var(--color-primary-300);
+  --sl-color-blue-high: var(--color-primary-100);
+  --sl-color-orange-low: var(--color-outline-800);
+  --sl-color-orange: var(--color-outline-300);
+  --sl-color-orange-high: var(--color-outline-100);
+
+  --sl-color-text: var(--color-neutral-100);
+  --outline-color: var(--color-outline-100);
+}
+
+:root[data-theme='light'],
+[data-theme='light'] ::backdrop {
+  --sl-color-white: var(--color-neutral-900);
+  --sl-color-gray-1: var(--color-neutral-850);
+  --sl-color-gray-2: var(--color-neutral-800);
+  --sl-color-gray-3: var(--color-neutral-700);
+  --sl-color-gray-4: var(--color-neutral-600);
+  --sl-color-gray-5: var(--color-neutral-500);
+  --sl-color-gray-6: var(--color-neutral-300);
+  --sl-color-gray-7: var(--color-neutral-200);
+  --sl-color-black: var(--color-neutral-100);
+
+  /* Keep light-mode link text at primary-500 or darker: primary-400 fails 4.5:1 on white. */
+  --sl-color-accent-low: var(--color-primary-100);
+  --sl-color-accent: var(--color-primary-500);
+  --sl-color-accent-high: var(--color-primary-800);
+
+  --sl-color-blue-low: var(--color-primary-100);
+  --sl-color-blue: var(--color-primary-500);
+  --sl-color-blue-high: var(--color-primary-800);
+  --sl-color-orange-low: var(--color-outline-50);
+  --sl-color-orange: var(--color-outline-200);
+  --sl-color-orange-high: var(--color-outline-800);
+
+  --sl-color-text: var(--color-neutral-800);
+  --outline-color: var(--color-outline-200);
+}
+
+:focus-visible {
+  outline: 2px solid var(--outline-color);
+}

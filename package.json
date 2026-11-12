@@ -1,0 +1,25 @@
+{
+  "name": "@kozhaakhmet/style-guide",
+  "version": "1.0.0",
+  "description": "Shared colors and fonts for the KozhaAkhmet personal website and docs sites.",
+  "license": "MIT",
+  "type": "module",
+  "repository": "github:KozhaAkhmet/style-guide",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./tokens.json": "./tokens.json",
+    "./css/*": "./css/*",
+    "./fonts/*": "./fonts/*"
+  },
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}
