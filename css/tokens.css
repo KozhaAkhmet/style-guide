@@ -27,6 +27,7 @@
   --color-outline-800: oklch(from var(--brand-outline) 30% c h);
 
   --color-neutral-100: oklch(from var(--brand-neutral) 100% 0 0);
+  --color-neutral-150: oklch(from var(--brand-neutral) 98% c h);
   --color-neutral-200: oklch(from var(--brand-neutral) 95% c h);
   --color-neutral-300: oklch(from var(--brand-neutral) 90% c h);
   --color-neutral-400: oklch(from var(--brand-neutral) 85% c h);
