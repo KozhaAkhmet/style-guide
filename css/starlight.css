@@ -59,6 +59,11 @@
   --outline-color: var(--color-outline-200);
 }
 
+/* Docs headings have their own font; they keep the body font while an older tokens.css is cached */
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-family-docs-heading, inherit);
+}
+
 :focus-visible {
   outline: 2px solid var(--outline-color);
 }
