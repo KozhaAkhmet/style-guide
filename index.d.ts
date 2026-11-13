@@ -8,6 +8,7 @@ export declare const colors: {
 export declare const fonts: {
   default: string
   special: string
+  docs: string
 }
 
 declare const tokens: { colors: typeof colors; fonts: typeof fonts }

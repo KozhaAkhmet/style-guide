@@ -3,7 +3,8 @@
    Dark accent = secondary, light accent = primary. */
 :root,
 ::backdrop {
-  --sl-font: var(--font-family-default);
+  /* Docs sites use their own font; falls back to the default while an older tokens.css is cached */
+  --sl-font: var(--font-family-docs, var(--font-family-default));
 
   /* Dark theme */
   --sl-color-white: var(--color-neutral-100);

@@ -15,7 +15,7 @@ Shared colors and fonts for the KozhaAkhmet personal website and the docs sites.
 
 ## Changing the style
 
-1. Edit `tokens.json`.
+1. Edit `tokens.json`. Fonts: `font.family.default` and `special` are for the personal website; `font.family.docs` is the font of the Starlight docs sites (`--sl-font`). A new font family also needs its files in `fonts/` and entries in `font.faces`.
 2. Run `npm run build` and commit the generated files.
 3. Push to `main`.
 
