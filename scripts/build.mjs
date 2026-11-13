@@ -38,8 +38,12 @@ const faces = tokens.font.faces.map((face) => {
     `  font-weight: ${face.weight};`,
     '  font-display: swap;',
     `  src: url('../fonts/${face.file}') format('woff2');`,
+    // Optional: subset files (latin, latin-ext…) share a family and are only downloaded when a page uses their characters
+    face.unicodeRange && `  unicode-range: ${face.unicodeRange};`,
     '}',
-  ].join('\n')
+  ]
+    .filter(Boolean)
+    .join('\n')
 })
 writeFileSync(new URL('css/fonts.css', root), `${header}${faces.join('\n\n')}\n`)
 

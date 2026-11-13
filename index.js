@@ -9,8 +9,9 @@ export const colors = {
 export const fonts = {
   "default": "'Atkinson Hyperlegible Next', sans-serif",
   "special": "'Atkinson Hyperlegible Next', sans-serif",
-  "docs": "'Atkinson Hyperlegible Next', sans-serif",
-  "docs-heading": "'Atkinson Hyperlegible Next', sans-serif"
+  "docs": "'Ubuntu Sans', sans-serif",
+  "docs-heading": "'Atkinson Hyperlegible Next', sans-serif",
+  "docs-code": "'Ubuntu Sans Mono', monospace"
 }
 
 export default { colors, fonts }

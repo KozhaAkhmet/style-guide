@@ -10,6 +10,7 @@ export declare const fonts: {
   special: string
   docs: string
   'docs-heading': string
+  'docs-code': string
 }
 
 declare const tokens: { colors: typeof colors; fonts: typeof fonts }
